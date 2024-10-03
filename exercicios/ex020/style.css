@@ -1,0 +1,16 @@
+
+h1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 20px solid rgb(218, 120, 0);
+    background: linear-gradient(to top, bisque, rgb(219, 68, 219));
+    text-align: center;
+    align-content: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,29 @@
+@import url();
+
+body {
+    font: italic bolder 20px arial, helvetica, sans-serif;
+    /*
+    shorthand
+    font: Style -> weight -> size -> family
+    */
+    background-image: linear-gradient(to bottom, bisque, purple, blue);
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+p {
+    font-weight: 100;
+}
+
+/*
+Medias absolutas:
+ cm, mm, in(pólegas), px, pt, pc
+
+Medidas relativas 
+ em, ex, rem, vw, vh, %
+*/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'rusi';
+            src: url('../fonts/Rusillaserif-Light.ttf') format('truetype'), url(Rusillaserif-Regular.ttf) format('truetype')
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de fomart()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-pentype
+            truetype-aat (apple advanced typograthy)
+            - svg
+            */
+        }
+        body {
+            background-image: linear-gradient(to left, bisque, purple);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'rusi', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 3em;
+        }
+        p {
+            font-family: 'rusi';
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sunt ea eligendi et, aperiam cum vero neque maiores eaque veritatis id. Architecto nostrum neque reprehenderit incidunt praesentium, magni eveniet nihil?</p>
+</body>
+</html>

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+body {
+    background-color: gray;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    margin: 30px;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(240, 132, 0);
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px 0.1px rgba(0, 0, 0, 0.795);
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
