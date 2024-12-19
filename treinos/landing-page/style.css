@@ -22,6 +22,7 @@ header {
     align-items: center;
     justify-content: space-around;
     padding-block: 18px;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -34,6 +35,7 @@ header {
     font-size: 18px;
     font-family: 'Sarala';
     transition-duration: 0.3s;
+    box-sizing: border-box;
 }
 
 .menu-item:hover {
