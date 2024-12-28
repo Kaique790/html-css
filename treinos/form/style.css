@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Passion+One:wght@400;700;900&family=Righteous&family=Sarala:wght@400;700&family=Sriracha&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('assets/imagem-fundo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    font-family: "Montserrat", serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 50px;
+    gap: 25px;
+    border-radius: 20px;
+}
+
+h1{
+    border-bottom: 7px solid rgb(240, 108, 60);
+    width: 16.1rem;
+    padding-bottom: 0.4rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.email, .senha {
+    border: 2px solid rgba(0, 0, 0, 0.010);
+    padding: 14px;
+    width: 22rem;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.075);
+    margin-top: 0.4rem;
+}
+
+.erro {
+    border: 2px solid red;
+}
+
+label {
+    margin-top: 2rem;
+}
+
+#lb {
+    margin-top: 2rem;
+}
+
+
+span {
+    margin: 3px 0 0 5px;
+    color: red;
+    display: none;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 0.5rem;
+    box-sizing: border-box;
+    max-height: 60px;
+}
+
+.btn button{
+    background-image: linear-gradient(#256a8a, #3393c1);
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: solid 1px #256a8a;
+    width: 10rem;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-block: 1rem;
+    border-bottom-width: 3px; 
+    border-right-width: 1px; 
+    border-left-width: 1px;
+    transition: .5s;
+}
+
+.btn button:active{
+    border: none;
+    box-sizing: border-box;
+}
