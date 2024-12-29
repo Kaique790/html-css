@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
     <title>Formúlario de Login</title>
 </head>
+
 <body>
     <main>
         <h1>Faça seu Login</h1>
 
-        <form id="form">
+        <form id="form" novalidate>
+
             <label for="email" class="label">Seu e-mail*</label>
-            <input type="email"  name="email" id="email" required class="email">
-            <span id="resultMessage"></span>
+            <div class="form-input">
+                <input type="email" id="email" class="email">
+                <p id="email-error">Mensagem de erro</p>
+            </div>
+
+
             <label for="senha" class="label">Sua senha*</label>
-            <input type="password" class="senha" name="senha" id="senha">
-            <span></span>
+            <div class="form-input">
+                <input type="password" class="senha" id="senha">
+                <p id="password-error">Mensagem de erro</p>
+            </div>
+
             <div class="remenber">
                 <input type="checkbox" name="lb" id="lb">
                 <label for="lb">Lembrar-me</label>
@@ -27,11 +36,12 @@
             </div>
         </form>
 
-        
-
         <div>
             <p>Esqueceu sua senha? <a href="#">Clique aqui</a></p>
         </div>
     </main>
+
+    <script src="index.js"></script>
 </body>
+
 </html>

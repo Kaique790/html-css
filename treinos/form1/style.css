@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body  {
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -39,18 +39,17 @@ form{
     flex-direction: column;
 }
 
-
-
 .email, .senha {
+    border-radius: 10px;
+    margin-top: 0.5rem;
     border: 2px solid rgba(0, 0, 0, 0.010);
     padding: 14px;
     width: 22rem;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.075);
-    margin-top: 0.4rem;
 }
 
-.erro {
+.error {
     border: 2px solid red;
 }
 
@@ -62,12 +61,6 @@ label {
     margin-top: 2rem;
 }
 
-
-span {
-    margin: 3px 0 0 5px;
-    color: red;
-    display: none;
-}
 
 .btn {
     text-align: center;
@@ -96,4 +89,28 @@ span {
 .btn button:active{
     border: none;
     box-sizing: border-box;
+}
+
+#email-error {
+    visibility: hidden;
+    color: red;
+    margin-left: 0.2rem;
+}
+
+#password-error {
+    visibility: hidden;
+    color: red;
+    margin-left: 0.2rem;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+.error + #email-error{
+    visibility: visible;
+}
+
+.error + #password-error{
+    visibility: visible;
 }
