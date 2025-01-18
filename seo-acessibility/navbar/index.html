@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="navbar resposiva para teste de acessibilidade e SEO">
+    <meta name="keywords" content="HTML, CSS, SEO, responsive, navbar">
+    <meta name="author" content="Kaique, Fullstack dev">
+
+    <link rel="stylesheet" href="style.css">
+    <title>NavBar</title>
+</head>
+<body>
+    <header>
+        <button id="open-sidebar-button" onclick="openSidebar()" aria-label="open sidebar" aria-expanded="false" aria-controls="navbar"><img src="icons8-cardápio-50.png" alt="" ></button>
+        
+        <nav id="navbar">
+            <ul>
+                <button id="closed-sidebar-button" onclick="closedSidebar()" aria-label="close sidebar"><img src="icons8-fechar-janela-40.png" alt="" height="50px"></button>
+                <li class="home-li">
+                    <a href="index.html" class="active-link" aria-current="page">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="features.html">features</a>
+                </li>
+                <li>
+                    <a href="pricing.html">pricing</a>
+                </li>
+                <li>
+                    <a href="login.html" class="accent-link">login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+        <div id="overflow" aria-hidden="true"></div>
+        <main>
+            <h1>acessibility test</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sunt pariatur veniam, optio aliquid ab tenetur neque adipisci ut cumque aperiam, assumenda a quasi alias recusandae quibusdam enim laudantium ipsa Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nesciunt reiciendis blanditiis eligendi quisquam similique atque laboriosam ea odio quod autem numquam, perferendis tenetur quia iure? Voluptate distinctio nihil sequi.
+            Eveniet odio sit, amet dolores ipsum deserunt neque velit voluptatem quae inventore cumque aperiam. Maxime laborum corrupti sint ducimus eos id porro obcaecati molestiae atque.</p>
+        </main>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
